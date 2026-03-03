@@ -1,0 +1,30 @@
+{
+  "name": "git-pr-checklist",
+  "version": "1.0.0",
+  "description": "Run a pre-PR checklist before pushing — enforce team standards and catch common mistakes",
+  "type": "module",
+  "bin": {
+    "git-pr-checklist": "./index.js",
+    "prc": "./index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "nodejs",
+    "zero-dependencies",
+    "git",
+    "pr",
+    "checklist",
+    "ci",
+    "pre-push",
+    "hook",
+    "lint",
+    "security"
+  ],
+  "author": "NickCirv",
+  "license": "MIT",
+  "dependencies": {}
+}

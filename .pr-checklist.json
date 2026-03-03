@@ -1,0 +1,53 @@
+{
+  "base": "main",
+  "checks": [
+    {
+      "name": "No console.log",
+      "type": "no-console-log",
+      "warn": false
+    },
+    {
+      "name": "No TODO/FIXME",
+      "type": "no-todo",
+      "warn": true
+    },
+    {
+      "name": "Tests pass",
+      "type": "tests-pass",
+      "command": "npm test"
+    },
+    {
+      "name": "Build passes",
+      "type": "build-passes",
+      "command": "npm run build"
+    },
+    {
+      "name": "Branch name convention",
+      "type": "branch-name",
+      "pattern": "^(feat|fix|chore|docs|refactor|test)/.+",
+      "warn": true
+    },
+    {
+      "name": "Max 10 commits",
+      "type": "commit-count",
+      "max": 10,
+      "warn": true
+    },
+    {
+      "name": "Max 30 files changed",
+      "type": "files-changed",
+      "max": 30,
+      "warn": true
+    },
+    {
+      "name": "No secrets in diff",
+      "type": "no-secrets"
+    },
+    {
+      "name": "Lint passes",
+      "type": "custom",
+      "command": "npm run lint",
+      "warn": false
+    }
+  ]
+}
