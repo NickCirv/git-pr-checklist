@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # git-pr-checklist
 
 > Run a pre-PR checklist before pushing — enforce team standards and catch common mistakes.
